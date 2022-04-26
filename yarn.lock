@@ -6524,9 +6524,9 @@
   integrity sha512-ewFXqrQHlFsgc09MK5jP5iR7vumV/BYayNC6PgJO2LPe8vrnNFyjQjSppfEngITi0qvfKtzFvgKymGheFM9UOA==
 
 "@types/react-dom@*", "@types/react-dom@<18.0.0", "@types/react-dom@^17":
-  version "17.0.15"
-  resolved "https://registry.npmjs.org/@types/react-dom/-/react-dom-17.0.15.tgz#f2c8efde11521a4b7991e076cb9c70ba3bb0d156"
-  integrity sha512-Tr9VU9DvNoHDWlmecmcsE5ZZiUkYx+nKBzum4Oxe1K0yJVyBlfbq7H3eXjxXqJczBKqPGq3EgfTru4MgKb9+Yw==
+  version "17.0.16"
+  resolved "https://registry.npmjs.org/@types/react-dom/-/react-dom-17.0.16.tgz#7caba93cf2806c51e64d620d8dff4bae57e06cc4"
+  integrity sha512-DWcXf8EbMrO/gWnQU7Z88Ws/p16qxGpPyjTKTpmBSFKeE+HveVubqGO1CVK7FrwlWD5MuOcvh8gtd0/XO38NdQ==
   dependencies:
     "@types/react" "^17"
 
@@ -15756,15 +15756,10 @@ jose@^2.0.5:
   dependencies:
     "@panva/asn1.js" "^1.0.0"
 
-jose@^4.1.4:
-  version "4.5.0"
-  resolved "https://registry.npmjs.org/jose/-/jose-4.5.0.tgz#92829d8cf846351eb55aaaf94f252fb1d191f2d5"
-  integrity sha512-GFcVFQwYQKbQTUOo2JlpFGXTkgBw26uzDsRMD2q1WgSKNSnpKS9Ug7bdQ8dS+p4sZHNH6iRPu6WK2jLIjspaMA==
-
-jose@^4.6.0:
-  version "4.6.2"
-  resolved "https://registry.npmjs.org/jose/-/jose-4.6.2.tgz#45724b4ec9b1e543240dba3da087f80eb979c1e1"
-  integrity sha512-7Jd3kGkgDfhpj+SFqfam70HyVC0gtdfbGc/tHb5dqsWYlQqodgkotqWYEXn1PhQXgdJqsyOAIKT0N4O2riUFiA==
+jose@^4.1.4, jose@^4.6.0:
+  version "4.8.0"
+  resolved "https://registry.npmjs.org/jose/-/jose-4.8.0.tgz#470c4c045f2abc899b924872aecb000c28947288"
+  integrity sha512-XmcX4PdqRlfDCSn9UPAvGoVylQxuJxtCZNlX4U0KgmOSHUvxYCalgnU/JNdNJQ20mGth3+xrPSkFj9rxS9tYWQ==
 
 joycon@^3.0.1:
   version "3.1.0"
