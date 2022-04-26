@@ -2054,13 +2054,13 @@
   dependencies:
     "@date-io/core" "^1.3.13"
 
-"@elastic/elasticsearch-mock@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.npmjs.org/@elastic/elasticsearch-mock/-/elasticsearch-mock-1.0.0.tgz#1fbaf6bf220cd74a34494ff3a8673551d9dfc66f"
-  integrity sha512-MajkXUZ1xMYJilZc4f6KxZ9fbOp3VkUgjshZOm3Z4dbzEpRz7FinOfo6/Om7qdFyzhCJ9GgPQz4b0zp+3QMeqQ==
+"@elastic/elasticsearch-mock@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.npmjs.org/@elastic/elasticsearch-mock/-/elasticsearch-mock-2.0.0.tgz#35110dd3ff13140a7065034f8e20f41445ab001b"
+  integrity sha512-VACQF7GStt8DetY91aJhXCYog6zXM0Vyb62k592EEt3aB4plrOLot+JvlLMC4URjh2jt9qYfER9hn4AI+ULTSw==
   dependencies:
     fast-deep-equal "^3.1.3"
-    find-my-way "^4.3.3"
+    find-my-way "^5.2.0"
     into-stream "^6.0.0"
 
 "@elastic/elasticsearch@7.13.0":
@@ -6524,9 +6524,9 @@
   integrity sha512-ewFXqrQHlFsgc09MK5jP5iR7vumV/BYayNC6PgJO2LPe8vrnNFyjQjSppfEngITi0qvfKtzFvgKymGheFM9UOA==
 
 "@types/react-dom@*", "@types/react-dom@<18.0.0", "@types/react-dom@^17":
-  version "17.0.15"
-  resolved "https://registry.npmjs.org/@types/react-dom/-/react-dom-17.0.15.tgz#f2c8efde11521a4b7991e076cb9c70ba3bb0d156"
-  integrity sha512-Tr9VU9DvNoHDWlmecmcsE5ZZiUkYx+nKBzum4Oxe1K0yJVyBlfbq7H3eXjxXqJczBKqPGq3EgfTru4MgKb9+Yw==
+  version "17.0.16"
+  resolved "https://registry.npmjs.org/@types/react-dom/-/react-dom-17.0.16.tgz#7caba93cf2806c51e64d620d8dff4bae57e06cc4"
+  integrity sha512-DWcXf8EbMrO/gWnQU7Z88Ws/p16qxGpPyjTKTpmBSFKeE+HveVubqGO1CVK7FrwlWD5MuOcvh8gtd0/XO38NdQ==
   dependencies:
     "@types/react" "^17"
 
@@ -12669,15 +12669,14 @@ find-cache-dir@^2.0.0:
     make-dir "^2.0.0"
     pkg-dir "^3.0.0"
 
-find-my-way@^4.3.3:
-  version "4.5.1"
-  resolved "https://registry.npmjs.org/find-my-way/-/find-my-way-4.5.1.tgz#758e959194b90aea0270db18fff75e2fceb2239f"
-  integrity sha512-kE0u7sGoUFbMXcOG/xpkmz4sRLCklERnBcg7Ftuu1iAxsfEt2S46RLJ3Sq7vshsEy2wJT2hZxE58XZK27qa8kg==
+find-my-way@^5.2.0:
+  version "5.5.1"
+  resolved "https://registry.npmjs.org/find-my-way/-/find-my-way-5.5.1.tgz#7a1a5e0856fd268768bb5855ebc618ca7b5f3fc0"
+  integrity sha512-72titIX4CR508RrE+wWiJSf46wXP5SI0ta4k/aAIQkmHuWIHIAVn4crJux91kH+QqxAfYikApprOuGA5WQ+HOw==
   dependencies:
     fast-decode-uri-component "^1.0.1"
     fast-deep-equal "^3.1.3"
     safe-regex2 "^2.0.0"
-    semver-store "^0.3.0"
 
 find-process@^1.4.5:
   version "1.4.7"
@@ -22371,11 +22370,6 @@ semver-diff@^3.1.1:
   integrity sha512-GX0Ix/CJcHyB8c4ykpHGIAvLyOwOobtM/8d+TQkAd81/bEjgPHrfba41Vpesr7jX/t8Uh+R3EX9eAS5be+jQYg==
   dependencies:
     semver "^6.3.0"
-
-semver-store@^0.3.0:
-  version "0.3.0"
-  resolved "https://registry.npmjs.org/semver-store/-/semver-store-0.3.0.tgz#ce602ff07df37080ec9f4fb40b29576547befbe9"
-  integrity sha512-TcZvGMMy9vodEFSse30lWinkj+JgOBvPn8wRItpQRSayhc+4ssDs335uklkfvQQJgL/WvmHLVj4Ycv2s7QCQMg==
 
 "semver@2 || 3 || 4 || 5", semver@^5.4.1, semver@^5.5.0, semver@^5.6.0, semver@^5.7.1:
   version "5.7.1"
